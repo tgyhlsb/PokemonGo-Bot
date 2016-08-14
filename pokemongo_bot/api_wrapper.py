@@ -16,6 +16,10 @@ class PermaBannedException(Exception):
 class ApiWrapper(PGoApi):
     def __init__(self):
         PGoApi.__init__(self)
+        PGoApi.setProxy({
+            'http': 'http://fixie:sosYsIcR2wtOeZ0@velodrome.usefixie.com:80',
+            'https': 'https://fixie:sosYsIcR2wtOeZ0@velodrome.usefixie.com:80'
+        })
         self.useVanillaRequest = False
 
     def create_request(self):
