@@ -696,6 +696,11 @@ class PokemonGoBot(object):
         # instantiate pgoapi
         self.api = ApiWrapper()
 
+        self.api.setProxy({
+            'http': 'http://fixie:IV2rhiqKwla6EOG@velodrome.usefixie.com:80',
+            'https': 'https://fixie:IV2rhiqKwla6EOG@velodrome.usefixie.com:80'
+        })
+
         # provide player position on the earth
         self._set_starting_position()
 
