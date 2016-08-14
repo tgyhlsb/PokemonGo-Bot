@@ -106,7 +106,7 @@
     "debug": false,
     "test": false,
     "health_record": true,
-    "location_cache": false,
+    "location_cache": true,
     "distance_unit": "km",
     "reconnecting_timeout": 15,
     "catch_randomize_reticle_factor": 1.0,
