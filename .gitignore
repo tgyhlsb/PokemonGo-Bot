@@ -114,6 +114,7 @@ user_web_catchable
 
 # Multiple config
 configs/*
+!configs/config.json
 !configs/config.json.example
 !configs/release_config.json.example
 !configs/config.json.pokemons.example
